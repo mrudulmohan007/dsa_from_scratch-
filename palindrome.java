@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 class PalindromeExample{
     public static void main(String args[]){
         int r,sum=0,temp;
-        int n=454;//It is the number variable to be checked for palindrome
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter first number- ");
+        int n= sc.nextInt();
 
         temp=n;
         while(n>0){
