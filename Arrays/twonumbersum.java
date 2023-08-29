@@ -1,3 +1,5 @@
+package Arrays;
+
 public class twonumbersum{
     public static int[] twoNumberSum(int[] array,int target){
         for(int i=0;i<array.length-1;i++){
