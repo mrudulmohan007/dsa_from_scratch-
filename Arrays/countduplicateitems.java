@@ -11,6 +11,7 @@ public class countduplicateitems {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
                     totalDuplicates++;
+                    break;
                     // Once a duplicate is found, break inner loop
                 }
             }
